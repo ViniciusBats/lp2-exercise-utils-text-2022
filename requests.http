@@ -1,0 +1,11 @@
+### post
+
+POST http://127.0.0.1:3000/lcup
+Content-Type: application/json
+
+{
+    "action": "lowercase",
+    "input": "Lorem ipsum",
+    "output": "lorem ipsum"
+
+}
